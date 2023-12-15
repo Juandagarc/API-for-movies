@@ -110,7 +110,7 @@ const MovieUpdate = () => {
             Extensión:
             <input type="text" name="extension" value={formData.extension} onChange={handleChange} />
           </label>
-          <button type="submit">Actualizar Película</button>
+          <button type="submit" className='boton-form'>Actualizar Película</button>
         </form>
       )}
     </div>

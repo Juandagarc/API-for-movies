@@ -39,3 +39,34 @@ img {
   height: 300px;
   border-radius: 2rem;
 }
+
+input {
+  border: none;
+  border-radius: 2rem;
+  padding: 10px;
+  margin: 10px;
+  background-color: #576CBC;
+}
+
+textarea {
+  border: none;
+  border-radius: 2rem;
+  padding: 10px;
+  margin: 10px;
+  background-color: #576CBC;
+}
+
+form {
+  /* Que sea de a dos culumnas */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* Que tenga un espacio entre las columnas */
+  grid-gap: 10px;
+}
+
+/* Que salga el texto y debajo el input */
+label {
+  display: flex;
+  flex-direction: column;
+}
+

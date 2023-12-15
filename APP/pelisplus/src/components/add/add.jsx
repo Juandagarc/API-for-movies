@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import './add.css';
 
 const Add = () => {
   const [formData, setFormData] = useState({
@@ -84,7 +85,7 @@ const Add = () => {
         Extensión:
         <input type="text" name="extension" value={formData.extension} onChange={handleChange} />
       </label>
-      <button type="submit">Crear Película</button>
+      <button type="submit" className='boton-form'>Crear Película</button>
     </form>
   );
 };

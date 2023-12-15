@@ -16,7 +16,7 @@ const MovieDelete = ({ peliculaId, onDelete }) => {
   };
 
   return (
-    <button onClick={handleDelete}>Eliminar Película</button>
+    <button onClick={handleDelete} className='boton-form'>Eliminar Película</button>
   );
 };
 
